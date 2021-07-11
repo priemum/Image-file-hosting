@@ -31,7 +31,7 @@ function main() {
 		});
 	}
 }
-
+ 
 app.post('/upload', function (req, res) {
 	const rkey = process.env.key;
 	const key = req.query.key;
